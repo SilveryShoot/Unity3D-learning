@@ -1,0 +1,22 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace Assets.Scripts
+{
+    public enum GameState { ROUND_START, ROUND_FINISH, RUNNING, PAUSE, START }
+
+    public interface IUserAction
+    {
+        void GameOver();
+        GameState getGameState();
+        void setGameState(GameState gs);
+        int GetScore();
+        void hit(Vector3 pos);
+    }
+
+    public interface ISceneController
+    {
+        void LoadResources();
+    }
+}
