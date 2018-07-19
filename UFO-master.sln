@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UFO-master.Plugins", "UFO-master.Plugins.csproj", "{ED9C8D62-9083-6FD5-FEB4-EE265C1D6E54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UFO-master", "UFO-master.csproj", "{3F3F6D0D-69DE-77FE-C4B9-6A95A9593AFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UFO-master.Editor.Plugins", "UFO-master.Editor.Plugins.csproj", "{29B2CA0F-8745-462D-4E9A-F79506D1D838}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED9C8D62-9083-6FD5-FEB4-EE265C1D6E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9C8D62-9083-6FD5-FEB4-EE265C1D6E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9C8D62-9083-6FD5-FEB4-EE265C1D6E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9C8D62-9083-6FD5-FEB4-EE265C1D6E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F3F6D0D-69DE-77FE-C4B9-6A95A9593AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F3F6D0D-69DE-77FE-C4B9-6A95A9593AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F3F6D0D-69DE-77FE-C4B9-6A95A9593AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F3F6D0D-69DE-77FE-C4B9-6A95A9593AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29B2CA0F-8745-462D-4E9A-F79506D1D838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B2CA0F-8745-462D-4E9A-F79506D1D838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B2CA0F-8745-462D-4E9A-F79506D1D838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B2CA0F-8745-462D-4E9A-F79506D1D838}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
